@@ -1,0 +1,27 @@
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notFoundImage {
+  height: 300px;
+  width: 448px;
+}
+.notFoundHeading {
+  color: #334155;
+}
+.notFoundParagraph {
+  color: #475569;
+}
+.notFoundButton {
+  height: 48px;
+  width: 164px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.navLink {
+  text-decoration: none;
+}

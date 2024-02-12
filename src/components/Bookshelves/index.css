@@ -1,0 +1,82 @@
+.bookshelvesbgContainer {
+  background-color: #f8fafc;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  overflow-y: auto;
+}
+.sideBarContainer {
+  height: 1152px;
+  width: 256px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.siderBarHeading {
+  margin-left: 10px;
+}
+.sideBarParagraph {
+  margin-left: 10px;
+  height: 24px;
+  width: 120px;
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.allbooksContainer {
+  background-color: transparent;
+  height: 100vh;
+  width: 70vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.allBooksHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchContainer {
+  height: 36px;
+  width: 264px;
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  height: 36px;
+  width: 220px;
+}
+.searchIcon {
+  height: 18px;
+  width: 18px;
+}
+.IconButton {
+  height: 36px;
+  width: 44px;
+}
+.unOrderedList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nobooksView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.noBooksImage {
+  height: 328px;
+  width: 477px;
+}
+.noBooksParagraph {
+  font-size: 24px;
+  color: #334155;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

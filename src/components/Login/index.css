@@ -1,0 +1,63 @@
+.mainContainer {
+  display: flex;
+}
+.LoginbgContainer {
+  background-color: #f8fafc;
+  width: 50vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginImage {
+  height: 100vh;
+  width: 50vw;
+}
+
+.formContainer {
+  height: 499px;
+  width: 484px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.websiteLogo {
+  height: 48px;
+  width: 141px;
+}
+.usernameContainer {
+  height: 90px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.passwordContainer {
+  height: 90px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #5a7184;
+  height: 19px;
+  width: 88px;
+}
+.input {
+  height: 56px;
+  width: 360px;
+}
+.loginButton {
+  height: 56px;
+  width: 360px;
+  background-color: #0284c7;
+  border-width: 0px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.error-message {
+  color: #ef4444;
+  font-family: 'Inter';
+}

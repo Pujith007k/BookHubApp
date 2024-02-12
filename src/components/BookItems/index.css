@@ -1,0 +1,47 @@
+.bookList {
+  height: 300px;
+  width: 350px;
+  display: flex;
+  margin: 20px;
+}
+.bookImage {
+  height: 300px;
+  width: 200px;
+}
+.bookDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.bookHeading {
+  color: #334155;
+}
+.bookParagraph {
+  color: #475569;
+}
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+.ratingParagraph {
+  color: #475569;
+}
+.ratingIcon {
+  color: #fbbf24;
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.rating {
+  color: #334155;
+}
+.statusParagraph {
+  color: #475569;
+}
+.status {
+  color: #0284c7;
+}
+.item-link {
+  text-decoration: none;
+}

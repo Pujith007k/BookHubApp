@@ -1,0 +1,121 @@
+.slick-container {
+  width: 100%;
+
+  margin-top: 0px;
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 100px;
+  width: 100px;
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-list {
+  margin: 0 5px;
+}
+.slick-slide > div {
+  margin: 0 5px;
+}
+
+.slickItem {
+  height: 292px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 4px;
+}
+.bookimage {
+  height: 224px;
+  width: 350px;
+}
+.bookTitle {
+  color: #334155;
+  height: 32px;
+  width: 127px;
+}
+.bookAuthor {
+  color: #475569;
+  height: 16px;
+  width: 93px;
+  font-weight: 400;
+}
+.homeContainer {
+  background-color: #f8fafc;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeHeading {
+  color: #1e293b;
+  height: 64px;
+  width: 601px;
+  font-weight: 600;
+}
+.homeParagraph {
+  color: #475569;
+  height: 64px;
+  width: 998px;
+  font-weight: 500;
+}
+.BooksSliderContainer {
+  height: 424px;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.slickHeadingDetails {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topRatedHeading {
+  height: 32px;
+  width: 195px;
+  color: #1e293b;
+}
+.findBooksButt {
+  height: 36px;
+  width: 104px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 4px;
+  border-width: 0px;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failImage {
+  height: 170px;
+  width: 347px;
+}
+.failParagraph {
+  color: #475569;
+}
+.failButton {
+  height: 32px;
+  width: 120px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.navLink {
+  text-decoration: none;
+}
